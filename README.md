@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Covid_19_data
+# Covid--19-Data-App
 
 ## Description
 COVID-19 Data-App is a tracking site that provides the necessary information on COVID-19 cases in any African country and their updates. Built with React and Redux.
@@ -55,8 +55,8 @@ You will also see any lint errors in the console.
 - To get the content of this project locally you need to run this command in your terminal:
 
 ```bash
-$ git clone git@github.com:BenMukebo/covid-19-data.git
-$ cd covid-19-data
+$ git clone https://github.com/evans22j/Covid--19-Data-App.git
+$ cd Covid--19-Data-App
 ```
 ### Run project
 
@@ -156,21 +156,23 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Author
 
-👤 **Ben Mukebo**
+👤 **Evans Sitibekiso**
 
-- GitHub: [@BenMukebo](https://github.com/BenMukebo)
-- Twitter [@BenMukebo](https://twitter.com/BenMukebo)
-- LinkedIn [BenMukebo](https://www.linkedin.com/in/kasongo-mukebo-ben-591720205/)
+- GitHub: [@evans22j](https://github.com/evans22j)
+- Twitter: [@Evans_22J](https://twitter.com/Evans_22J)
+- LinkedIn: [@Evans Sitibekiso](https://www.linkedin.com/in/evans-sitibekiso/)
 
-## :handshake: Contributing
+## 🤝 Contributing
 
-Feel free to check the [issues page](https://github.com/BenMukebo/Math-magicians/issues)
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
 
 Give a :star: if you like this project! ❤️❤️❤️
 
 ## Acknowledgments
 
-- Thanks to everyone who will get time to check this code especially to code reviewers.
+- Thanks to microverse for this project.
 
 ## 📝 License
 
