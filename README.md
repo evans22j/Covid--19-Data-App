@@ -3,9 +3,7 @@
 # Covid_19_data
 
 ## Description
-- Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
-  - Make simple calculations.
-  - Read a random math-related quote.
+COVID-19 Data-App is a tracking site that provides the necessary information on COVID-19 cases in any African country and their updates. Built with React and Redux.
   
 
 ||     Home       ||        Details        ||
@@ -42,11 +40,11 @@ You will also see any lint errors in the console.
 
 ## Live Demo Links
 
-### [Live Demo](https://benmukebo-covid-19-data.herokuapp.com/)
+### [Live Demo]()
 
 ## Loom 
 
-### [Loom](https://www.loom.com/share/82de7bc7b90e44f3be305fd70344fc20)
+### [Loom]()
 
 
 
