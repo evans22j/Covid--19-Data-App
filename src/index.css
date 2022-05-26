@@ -8,9 +8,9 @@
 
 :root {
   --primary: rgba(255, 255, 255, 0.74);
-  --secondary: #8ea0a0b0;
-  --dark-secondary: #394f5c;
-  --light-secondary: #556b7a;
+  --secondary: #405a5ead;
+  --dark-secondary: #8cddd9e5;
+  --light-secondary: #54cbdb;
 }
 
 body {
