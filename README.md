@@ -8,7 +8,7 @@ COVID-19 Data-App is a tracking site that provides the necessary information on 
 
 ||     Home       ||        Details        ||
 |-|----------------------|-| ----------------------|-|
-||![screenshot](./src/images/.png)||![screenshot](./src/images/.png)||
+||![screenshot](./src/images/screen1.png)||![screenshot](./src/images/screen2.png)||
 
 ## Learning objectives
 
