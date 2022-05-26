@@ -11,7 +11,6 @@ import formatNumber from '../utils/formatNumber';
 import Africa from '../../images/africa.svg';
 import styles from '../css/home.module.css';
 import Item from './Item';
-import Filter from './Filter';
 
 const Home = () => {
   const continent = 'Africa';
@@ -43,10 +42,21 @@ const Home = () => {
     if (!e.target.value) {
       setLocalItems(items);
     }
-    const newItems = [...items];
-    // eslint-disable-next-line max-len
-    const filteredItems = newItems.filter((item) => item.name.toLowerCase().includes(e.target.value.toLowerCase()));
-    setLocalItems(filteredItems);
+    const itms = [...items];
+    const fil = itms.filter((el) => el.name.toLowerCase().includes(e.target.value.toLowerCase()));
+    setLocalItems(fil);
+  };
+
+  const flterStyle = {
+    transform: 'translateY(-1.5rem)',
+    marginLeft: '1rem',
+  };
+  const flterInput = {
+    color: 'var(--light-secondary)',
+    padding: '0.4rem',
+    border: 'none',
+    outline: 'none',
+    width: '30%',
   };
 
   return (
@@ -56,7 +66,7 @@ const Home = () => {
           <span>
             <FontAwesomeIcon icon={faAngleLeft} className="fontawesome" />
           </span>
-          <h4>2022</h4>
+          <h4>2021</h4>
         </div>
         <h4 className={styles['header-title']}>Most views</h4>
         <div className={styles['right-icons']}>
@@ -82,8 +92,10 @@ const Home = () => {
       </div>
 
       <section className={styles.contries}>
-        <h5>STATS By COUNTRY 2022</h5>
-        <Filter searchBar={searchBar} onChange={handleChange} />
+        <h5>STATS By COUNTRY 2021</h5>
+        <div style={flterStyle}>
+          <input placeholder="Search..." value={searchBar} onChange={handleChange} style={flterInput} />
+        </div>
         <Item items={localItems} />
       </section>
     </section>
