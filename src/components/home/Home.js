@@ -38,7 +38,7 @@ const Home = () => {
           <span>
             <FontAwesomeIcon icon={faAngleLeft} className="fontawesome" />
           </span>
-          <h4>2021</h4>
+          <h4>2022</h4>
         </div>
         <h4 className={styles['header-title']}>Most views</h4>
         <div className={styles['right-icons']}>
@@ -64,7 +64,7 @@ const Home = () => {
       </div>
 
       <section className={styles.contries}>
-        <h5>STATS By COUNTRY 2021</h5>
+        <h5>STATS By COUNTRY 2022</h5>
         <Item items={items} />
       </section>
     </section>

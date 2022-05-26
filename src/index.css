@@ -7,10 +7,10 @@
 }
 
 :root {
-  --primary: rgba(255, 255, 255, 0.74);
-  --secondary: #405a5ead;
-  --dark-secondary: #8cddd9e5;
-  --light-secondary: #54cbdb;
+  --primary: rgba(40, 181, 236, 0.74);
+  --secondary: #546fe7f1;
+  --dark-secondary: #2277e7ee;
+  --light-secondary: #1672ebd8;
 }
 
 body {
