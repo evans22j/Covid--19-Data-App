@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+:root {
+  --primary: rgba(40, 181, 236, 0.74);
+  --secondary: #546fe7f1;
+  --dark-secondary: #2277e7ee;
+  --light-secondary: #1672ebd8;
+}
+
+body {
+  background-color: var(--secondary);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
