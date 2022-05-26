@@ -30,6 +30,7 @@ const Details = () => {
 
   const { All } = country;
   const list = Object.entries(country).slice();
+  // console.log(list);
 
   return (
     <section>
@@ -65,7 +66,7 @@ const Details = () => {
       </div>
 
       <section className={styles['details-section']}>
-        <h4 className={styles['details-title']}>Town/City cases</h4>
+        <h4 className={styles['details-title']}>Twon/City cases</h4>
         <ul className={styles['details-container']}>
           {list.map(([name, {
             population, location, abbreviation, continent, recovered, confirmed, deaths, updated,
