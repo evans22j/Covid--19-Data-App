@@ -40,7 +40,7 @@ You will also see any lint errors in the console.
 
 ## Live Demo Links
 
-### [Live Demo](https://evans22j.github.io/Covid--19-Data-App/)
+### [Live Demo](https://evans22jcovid-19-data-app.netlify.app/)
 
 ## Loom 
 
