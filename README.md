@@ -8,7 +8,7 @@ COVID-19 Data-App is a tracking site that provides the necessary information on 
 
 ||     Home       ||        Details        ||
 |-|----------------------|-| ----------------------|-|
-||![screenshot](./src/images/.png)||![screenshot](./src/images/.png)||
+||![screenshot](./src/images/screen1.png)||![screenshot](./src/images/screen2.png)||
 
 ## Learning objectives
 
@@ -40,11 +40,11 @@ You will also see any lint errors in the console.
 
 ## Live Demo Links
 
-### [Live Demo]()
+### [Live Demo](https://evans22jcovid-19-data-app.netlify.app/)
 
 ## Loom 
 
-### [Loom]()
+### [Loom](https://www.loom.com/share/dd116cee61814c5387df174a5be62bbe)
 
 
 

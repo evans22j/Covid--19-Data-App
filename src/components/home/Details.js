@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, useParams } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -30,7 +30,6 @@ const Details = () => {
 
   const { All } = country;
   const list = Object.entries(country).slice();
-  // console.log(list);
 
   return (
     <section>
