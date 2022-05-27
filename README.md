@@ -40,11 +40,11 @@ You will also see any lint errors in the console.
 
 ## Live Demo Links
 
-### [Live Demo]()
+### [Live Demo](https://evans22j.github.io/Covid--19-Data-App/)
 
 ## Loom 
 
-### [Loom]()
+### [Loom](https://www.loom.com/share/dd116cee61814c5387df174a5be62bbe)
 
 
 
