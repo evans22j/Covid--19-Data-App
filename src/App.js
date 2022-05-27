@@ -1,4 +1,4 @@
-import React, { Component }  from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import LoadingBar from 'react-redux-loading-bar';
 import Home from './components/home/Home';
