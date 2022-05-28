@@ -30,7 +30,7 @@ Array [
           </svg>
         </span>
         <h4>
-          2021
+          2022
         </h4>
       </div>
       <h4
@@ -107,7 +107,7 @@ Array [
       className="contries"
     >
       <h5>
-        STATS By COUNTRY 2021
+        STATS By COUNTRY 2022
       </h5>
       <div
         style={
@@ -123,7 +123,7 @@ Array [
           style={
             Object {
               "border": "none",
-              "color": "black",
+              "color": "var(--light-secondary)",
               "outline": "none",
               "padding": "0.4rem",
               "width": "30%",

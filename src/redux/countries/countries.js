@@ -44,7 +44,7 @@ export const fetchCountries = (continent) => async (dispatch) => {
   dispatch(hideLoading());
 };
 
-const initialState = {
+export const initialState = {
   totalConfirmed: 0,
   items: [],
   selected: null,
