@@ -47,10 +47,10 @@ const Home = () => {
     setLocalItems(fil);
   };
 
-  const flterStyle = {
-    transform: 'translateY(-1.5rem)',
-    marginLeft: '1rem',
-  };
+  // const flterStyle = {
+  //   transform: 'translateY(-1.5rem)',
+  //   marginLeft: '1rem',
+  // };
   const flterInput = {
     color: 'var(--light-secondary)',
     padding: '0.4rem',
@@ -91,13 +91,13 @@ const Home = () => {
         </div>
       </div>
 
-      <section className={styles.contries}>
-        <h5>STATS By COUNTRY 2022</h5>
-        <div style={flterStyle}>
+      <div className={styles.contries}>
+        <div className={styles.search}>
+          <h5>STATS By COUNTRY 2022</h5>
           <input placeholder="Search..." value={searchBar} onChange={handleChange} style={flterInput} />
         </div>
         <Item items={localItems} />
-      </section>
+      </div>
     </section>
   );
 };
