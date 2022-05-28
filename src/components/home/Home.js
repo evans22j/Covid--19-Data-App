@@ -91,14 +91,13 @@ const Home = () => {
         </div>
       </div>
 
-
       <div className={styles.contries}>
         <div className={styles.search}>
           <h5>STATS By COUNTRY 2022</h5>
-            <input placeholder="Search..." value={searchBar} onChange={handleChange} style={flterInput} />
-          </div>
-          <Item items={localItems} />
+          <input placeholder="Search..." value={searchBar} onChange={handleChange} style={flterInput} />
         </div>
+        <Item items={localItems} />
+      </div>
     </section>
   );
 };
